@@ -1,3 +1,0 @@
-This is our first git projectThis a test
-This is another test
-this is a test edit to this filethis is another change
