@@ -24,7 +24,7 @@ Centralized systems have a single repository, are network-dependent, and often u
 
    - [ ] a) committed, changed, waiting
    - [ ] b) saved, changed, staged
-   - [ ] c) committed, modified, staged
+   - [x] **c**) committed, modified, staged
    - [ ] d) saved, modified, staged
 
 4. What command initializes a new repository?
@@ -32,7 +32,7 @@ Centralized systems have a single repository, are network-dependent, and often u
    - [ ] a) `git clone`
    - [ ] b) `git branch`
    - [ ] c) `git fork`
-   - [ ] d) `git init`
+   - [x] **d**) `git init`
 
 5. What does `git diff` do?
 
