@@ -24,7 +24,7 @@ Centralized systems have a single repository, are network-dependent, and often u
 
    - [ ] a) committed, changed, waiting
    - [ ] b) saved, changed, staged
-   - [x] **c**) committed, modified, staged
+   - [x] **c)** committed, modified, staged
    - [ ] d) saved, modified, staged
 
 4. What command initializes a new repository?
@@ -32,32 +32,32 @@ Centralized systems have a single repository, are network-dependent, and often u
    - [ ] a) `git clone`
    - [ ] b) `git branch`
    - [ ] c) `git fork`
-   - [x] **d**) `git init`
+   - [x] **d)** `git init`
 
 5. What does `git diff` do?
 
    - [ ] a) compares the differences between the home directory and staging area
-   - [ ] b) compares the differences between the working directory and staging area
+   - [x] **b)** compares the differences between the working directory and staging area
    - [ ] c) compares the differences between the working directory and what’s been committed
    - [ ] d) compares the differences between the staging area and what’s been committed
 
 6. How do you add a message to your commit? (select all that apply)
 
-   - [ ] a) `git commit -m`
+   - [x] **a)** `git commit -m`
    - [ ] b) `git commit --messages`
-   - [ ] c) `git commit`
+   - [x] **c)** `git commit`
    - [ ] d) `git commit -message`
 
 7. How do you add a remote repo? (select all that apply)
 
-   - [ ] a) `git remote add`
+   - [x] **a)** `git remote add`
    - [ ] b) `git add remote`
    - [ ] c) `git clone`
    - [ ] d) `git add clone`
 
 8. How do you add a remote repo? (select all that apply)
 
-   - [ ] a) `git remote`
+   - [x] **a)** `git remote`
    - [ ] b) `git add remote`
    - [ ] c) `git clone`
    - [ ] d) `git add clone`
@@ -65,16 +65,19 @@ Centralized systems have a single repository, are network-dependent, and often u
 9. What is the difference between `git pull` and `git fetch`?
 
 ```
-Your answer here...
+***git pull:***
+Fetches and merges changes from a remote repository into the current branch in one step.
+Quick and convenient, but may result in automatic merges.
 
-
-
-
+***git fetch:***
+Fetches changes from a remote repository but does not automatically merge.
+Updates remote-tracking branches, allowing you to review changes before merging.
+Provides more control over the process
 ```
 
 9. How do you switch branches?
 
-   - [ ] a) `git checkout`
+   - [x] ***a)*** `git checkout`
    - [ ] b) `git checkout -b`
    - [ ] c) `git branch -c`
    - [ ] d) `git branch`
@@ -82,28 +85,23 @@ Your answer here...
 10. Why are messages important? What would make a good commit message?
 
 ```
-Your answer here...
-
-
-
+Commit messages in version control systems like git are crucial show collaborators easily what has been done.
 
 ```
 
 11. Please correct the merge shown below (both codes are suitable, neither has errors):
 
+
 ```
 <<<<<<< HEAD
 df.loc[df['sex'] == 'f', 'age'].mean()
-=======
+======
 df.loc[df['sex'] == 'm', 'age'].mean()
 >>>>>>> branch_1
 ```
 
 ```
-Your corrected merge here...
+df.loc[df['sex'] == 'f', 'age'].mean()
+df.loc[df['sex'] == 'm', 'age'].mean()
 
-
-
-
-```
-
+``
